@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Geheimnisse
+.env
+*.key
+
+# Open WebUI Daten (Datenbank, Accounts, Vektoren) – gehören nicht ins Repo
+data/
+webui.db
+vector_db/
+
+# Modelle (zu groß)
+*.gguf
+models/
