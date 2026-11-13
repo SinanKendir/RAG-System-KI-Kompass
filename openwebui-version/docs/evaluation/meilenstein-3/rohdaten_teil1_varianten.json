@@ -1,0 +1,495 @@
+{
+ "beschreibung": "Teil 1: vier Varianten, je 16 Fragen, 13.11.2026. V1/V2 = llama3.1 ohne/mit RAG, V3/V4 = gemma3:12b ohne/mit RAG (V4 = Modell ki-kompass). Temperatur 0,2, num_ctx 8192, Top-K 5, hybride Suche.",
+ "fragen": {
+  "F01": "Wir sind ein Handwerksbetrieb mit 20 Mitarbeitenden und wollen mit KI anfangen. Wo bekommen wir eine erste Beratung?",
+  "F02": "Gibt es Veranstaltungen, bei denen ich mich mit anderen Geschäftsführungen über den KI-Einsatz austauschen kann?",
+  "F03": "Was müssen wir rechtlich beachten, wenn wir KI im Unternehmen einsetzen? Wo finden wir Informationen dazu?",
+  "F04": "Unsere Mitarbeitenden haben keine KI-Vorkenntnisse. Gibt es einen kostenlosen Online-Kurs zu den Grundlagen?",
+  "F05": "Gibt es eine kurze Einführung in KI und maschinelles Lernen für unser Team, gerne online?",
+  "F06": "Wir haben die Idee, die Qualitätskontrolle in der Produktion mit einer Kamera und KI zu automatisieren. Wer kann prüfen, ob das technisch machbar ist?",
+  "F07": "Kann die Hochschule Niederrhein für uns einen KI-Prototypen entwickeln, zum Beispiel im Rahmen einer studentischen Arbeit?",
+  "F08": "Bekommen wir beim KI.DeepDive von KI.NRW einen fertigen Prototypen?",
+  "F09": "Wir wissen noch nicht, welche KI-Anwendungsfälle es in unserem Unternehmen überhaupt gibt. Wer hilft uns, diese zu identifizieren und zu bewerten?",
+  "F10": "Wir suchen ein Start-up, das mit uns eine KI-Lösung umsetzt. Welche Angebote helfen dabei?",
+  "F11": "Entwickelt AI Village die KI-Software für uns?",
+  "F12": "Wir haben über AI Village einen Lösungsanbieter gefunden. Gibt es danach noch Unterstützung?",
+  "F13": "Wir interessieren uns für KI.",
+  "F14": "Wie viel Euro Förderung bekommen wir für ein KI-Forschungsprojekt mit der Hochschule Niederrhein und wer ist dort unser Ansprechpartner?",
+  "F15": "Bietet die IHK Mittlerer Niederrhein den „KI-Gutschein NRW“ an und wie beantrage ich ihn?",
+  "F16": "Wie wird morgen das Wetter in Krefeld?"
+ },
+ "antworten": {
+  "V1": {
+   "F01": {
+    "antwort": "Um Ihnen bei der Einführung von KI zu helfen, empfehle ich Ihnen zunächst, sich über die Möglichkeiten von KI zu informieren. Hierfür bietet die IHK Mittlerer Niederrhein eine erste Orientierung an. \n\n**Name des Angebots:** IHK Mittlerer Niederrhein – Phase: Orientierung\n**Worum es geht:** Die IHK bietet eine erste Einführung in die Möglichkeiten von KI und wie diese in Ihrem Unternehmen eingesetzt werden können.\n**Warum es zur Anfrage passt:** Hier erhalten Sie eine erste Übersicht über die verschiedenen Anwendungsbereiche von KI und können entscheiden, ob und wie Sie mit KI fortfahren möchten.\n\nEin nächster Schritt wäre, sich direkt an die IHK Mittlerer Niederrhein zu wenden, um eine erste Beratung zu vereinbaren.",
+    "zeit_ms": 10776,
+    "gefundene_abschnitte": []
+   },
+   "F02": {
+    "antwort": "Die Orientierung ist eine gute Phase, um sich zu informieren. \n\nKI.NRW bietet eine Plattform, auf der Sie mit anderen Unternehmen und Experten in Kontakt treten können. Dort finden Sie auch Veranstaltungen und Workshops, bei denen Sie sich mit anderen Geschäftsführungen austauschen können.\n\nIch empfehle: **KI.NRW - Netzwerken** – Orientierung\nHier können Sie sich informieren und mit anderen Unternehmen und Experten in Kontakt treten.\n\nKönnten Sie sich vorstellen, sich zunächst auf der Plattform umzusehen und dann Kontakt zu anderen Unternehmen aufzunehmen?",
+    "zeit_ms": 7417,
+    "gefundene_abschnitte": []
+   },
+   "F03": {
+    "antwort": "Die Orientierung ist die richtige Phase für Ihre Frage.\n\n**Name des Angebots - Phase** - IHK Mittlerer Niederrhein - Orientierung\n**Worum es geht**: Die IHK Mittlerer Niederrhein bietet Informationen zu rechtlichen Aspekten der Einführung von KI im Unternehmen an.\n**Warum es zur Anfrage passt**: Die IHK kann Ihnen helfen, die rechtlichen Grundlagen zu verstehen, bevor Sie KI im Unternehmen einsetzen.\n\nEin nächster Schritt wäre, sich direkt an die IHK Mittlerer Niederrhein zu wenden, um genauer zu erfahren, welche Informationen und Unterstützung sie anbieten.",
+    "zeit_ms": 8149,
+    "gefundene_abschnitte": []
+   },
+   "F04": {
+    "antwort": "**KI.NRW - Grundlagen der KI** - Orientierung\nKI.NRW bietet einen kostenlosen Online-Kurs, der die Grundlagen der Künstlichen Intelligenz (KI) vermittelt. In diesem Kurs lernen Sie, was KI leisten kann und wie sie in Unternehmen eingesetzt werden kann.\n\nWarum es passt: Dieser Kurs ist ideal, um die Grundlagen von KI zu verstehen und zu sehen, ob sie für Ihr Unternehmen relevant ist.\n\nNächster Schritt: Besuchen Sie den Kurs auf der Website von KI.NRW und beginnen Sie mit der Einführung in die KI.",
+    "zeit_ms": 7749,
+    "gefundene_abschnitte": []
+   },
+   "F05": {
+    "antwort": "**KI-Nachwuchs** – Qualifizierung\n\nDas Angebot \"KI-Nachwuchs\" von KI.NRW bietet eine Einführung in KI und maschinelles Lernen an. Es handelt sich um eine Online-Schulung, die sich an Mitarbeiter aller Branchen richtet.\n\nWarum es zur Anfrage passt: Mit dieser Schulung können Ihre Mitarbeiter grundlegende Kenntnisse in KI und maschinellem Lernen erwerben.\n\nNächster Schritt: Wenn Sie mehr über \"KI-Nachwuchs\" erfahren möchten, können Sie sich direkt bei KI.NRW melden.",
+    "zeit_ms": 7396,
+    "gefundene_abschnitte": []
+   },
+   "F06": {
+    "antwort": "Das klingt interessant! Um zu prüfen, ob die Idee technisch machbar ist, empfehle ich:\n\n**AI Village - Prototyping**\n- AI Village – Prototyping\n- Worum es geht: Die Möglichkeit, Ideen zu prototypieren und erste Ergebnisse zu erzielen.\n- Warum es passt: Hier können Sie Ihre Idee in einem ersten Schritt umsetzen und prüfen, ob die Automatisierung der Qualitätskontrolle mit KI technisch machbar ist.\n\nEin nächster Schritt wäre, sich direkt an die Mitarbeiter von AI Village zu wenden, um Ihre Idee zu präsentieren und zu erfahren, wie sie Ihnen helfen können.",
+    "zeit_ms": 8354,
+    "gefundene_abschnitte": []
+   },
+   "F07": {
+    "antwort": "Ich kann keine Informationen zu Angebotsnamen finden, die genau \"KI-Prototypen Entwicklung\" oder \"studentische Arbeit\" enthalten. Es ist jedoch möglich, dass die Hochschule Niederrhein oder andere Anbieter solche Angebote haben.\n\nIch empfehle, sich direkt an die Hochschule Niederrhein zu wenden, um nachzufragen, ob sie solche Angebote haben und wie man sich daran beteiligen kann.",
+    "zeit_ms": 5695,
+    "gefundene_abschnitte": []
+   },
+   "F08": {
+    "antwort": "Ich kann keine Informationen zu einem KI.DeepDive von KI.NRW finden. Ich empfehle, sich direkt an KI.NRW zu wenden, um mehr Informationen zu erhalten.",
+    "zeit_ms": 2362,
+    "gefundene_abschnitte": []
+   },
+   "F09": {
+    "antwort": "Das ist eine gute erste Schritt! Sie möchten sich informieren, bevor Sie sich auf eine bestimmte KI-Anwendung konzentrieren.\n\nIch empfehle Ihnen, sich zunächst mit der IHK Mittlerer Niederrhein in Verbindung zu setzen. Sie bieten eine Orientierung und Einführung in die Welt der KI-Anwendungen für Unternehmen an. Dort können Sie erste Gespräche führen und Ihre Fragen klären.\n\nWarum passt das Angebot? Die IHK Mittlerer Niederrhein kann Ihnen helfen, die KI-Anwendungsfälle in Ihrem Unternehmen zu identifizieren und zu bewerten, ohne dass Sie sich vorher umfassend mit KI-Themen beschäftigen müssen.\n\nNächster Schritt: Bitte wenden Sie sich direkt an die IHK Mittlerer Niederrhein, um Ihre Fragen zu klären.",
+    "zeit_ms": 10469,
+    "gefundene_abschnitte": []
+   },
+   "F10": {
+    "antwort": "Umsetzung ist also die gewünschte Phase.\n\nIch empfehle dir drei Angebote, die dir helfen könnten, eine KI-Lösung mit einem Start-up umzusetzen:\n\n- **KI.NRW** – Umsetzung\nKI.NRW unterstützt Unternehmen bei der Umsetzung von KI-Projekten. Sie können dir helfen, ein passendes Start-up zu finden und die Zusammenarbeit zu organisieren.\n- **Hochschule Niederrhein** – Umsetzung\nDie Hochschule Niederrhein bietet eine Plattform, um Unternehmen mit Start-ups zusammenzubringen. Sie können dir helfen, ein passendes Start-up zu finden und die Zusammenarbeit zu organisieren.\n- **AI Village** – Umsetzung\nAI Village ist ein KI-Cluster, der Unternehmen bei der Umsetzung von KI-Projekten unterstützt. Sie können dir helfen, ein passendes Start-up zu finden und die Zusammenarbeit zu organisieren.\n\nIch empfehle dir, zunächst mit KI.NRW in Kontakt zu treten, um zu sehen, ob sie dir helfen können, ein passendes Start-up zu finden und die Zusammenarbeit zu organisieren.",
+    "zeit_ms": 13870,
+    "gefundene_abschnitte": []
+   },
+   "F11": {
+    "antwort": "Ich bin der KI-Kompass für den Mittelstand. Ich helfe dir, aus den vielen KI-Unterstützungsangeboten das passende für dein Unternehmen zu finden.\n\nUm dir besser helfen zu können, möchte ich wissen, in welcher Phase du dich befindest. Möchten Sie sich erst informieren, Mitarbeitende schulen, eine konkrete Idee prüfen oder eine Lösung umsetzen?",
+    "zeit_ms": 5274,
+    "gefundene_abschnitte": []
+   },
+   "F12": {
+    "antwort": "Das klingt nach einem guten Start! Wenn Sie also bereits einen Lösungsanbieter wie AI Village gefunden haben, dann ist die Phase der **Umsetzung** erreicht.\n\nIch empfehle Ihnen:\n\n**AI Village - Umsetzung**\nAI Village - Lösungsanbieter – Phase\nWorum es geht: Sie erhalten Unterstützung bei der Implementierung einer KI-Lösung in Ihrem Unternehmen.\nWarum es passt: Sie haben bereits einen Lösungsanbieter gefunden, und AI Village unterstützt Sie bei der Umsetzung.\n\nAls nächster Schritt würde ich vorschlagen, dass Sie sich direkt an AI Village wenden, um Ihre spezifischen Bedürfnisse und Fragen zu besprechen.",
+    "zeit_ms": 8415,
+    "gefundene_abschnitte": []
+   },
+   "F13": {
+    "antwort": "Das ist großartig! KI (Künstliche Intelligenz) kann für Unternehmen viele Möglichkeiten bieten. Um Ihnen zu helfen, möchten wir zunächst wissen, ob Sie sich eher informieren möchten, wie KI funktioniert und welche Möglichkeiten es bietet, oder ob Sie bereits eine konkrete Idee haben, die Sie mit KI umsetzen möchten.\n\nMöchten Sie sich erst informieren, Mitarbeitende schulen, eine konkrete Idee prüfen oder eine Lösung umsetzen?",
+    "zeit_ms": 6187,
+    "gefundene_abschnitte": []
+   },
+   "F14": {
+    "antwort": "Ich kann keine Informationen zu spezifischen Förderungen oder Ansprechpartnern liefern. Wenn du Fragen zu KI-Unterstützungsangeboten für Unternehmen hast, stehe ich gerne zur Verfügung.",
+    "zeit_ms": 2924,
+    "gefundene_abschnitte": []
+   },
+   "F15": {
+    "antwort": "Ich bin der KI-Kompass für den Mittelstand. Ich helfe dir, aus den vielen KI-Unterstützungsangeboten das passende für dein Unternehmen zu finden.\n\nUm dir zu helfen, benötige ich jedoch mehr Informationen. Kannst du mir sagen, in welcher Phase deines Unternehmens du dich gerade befindest? Möchtest du dich informieren, Mitarbeitende schulen, eine konkrete Idee prüfen oder eine Lösung umsetzen?",
+    "zeit_ms": 6112,
+    "gefundene_abschnitte": []
+   },
+   "F16": {
+    "antwort": "Ich bin der \"KI-Kompass für den Mittelstand\" und kann dir leider keine Informationen über das Wetter in Krefeld geben. Ich bin hier, um dir bei Fragen zu KI-Unterstützungsangeboten für Unternehmen zu helfen. Wenn du also nach Wettervorhersagen suchst, empfehle ich, dich direkt an eine Wetter-App oder das Wetterportal der Deutschen Wetterdienste zu wenden.\n\nWenn du jedoch nach KI-Unterstützungsangeboten für Unternehmen suchst, stehe ich gerne zur Verfügung!",
+    "zeit_ms": 6891,
+    "gefundene_abschnitte": []
+   }
+  },
+  "V2": {
+   "F01": {
+    "antwort": "Lassen Sie uns das erste Schritt machen, um mit KI anzufangen. Aus der Wissensbasis habe ich herausgefunden, dass die IHK Mittlerer Niederrhein ein Angebot namens \"Künstliche Intelligenz in der Wirtschaft\" anbietet, das sich auf die Orientierungsphase konzentriert.\n\n**Name des Angebots** (Anbieter) – Phase: Künstliche Intelligenz in der Wirtschaft (IHK Mittlerer Niederrhein) – Orientierung\n\n**Worum es geht:** Informationen zum Einsatz von KI in Unternehmen.\n\n**Warum es zur Anfrage passt:** Dieses Angebot ist ideal für den Einstieg in KI, da es Informationen und Erfahrungsaustausch bietet.\n\nIch empfehle, sich direkt an die IHK Mittlerer Niederrhein zu wenden, um eine erste Beratung zu erhalten.",
+    "zeit_ms": 15812,
+    "gefundene_abschnitte": [
+     "Künstliche Intelligenz in der Wirtschaft (IHK Mittlerer Niederrhein)",
+     "IHK4KMU:innovativ (IHK Mittlerer Niederrhein)",
+     "Elements of AI (Verweis der IHK Mittlerer Niederrhein)"
+    ]
+   },
+   "F02": {
+    "antwort": "Ja, es gibt eine Veranstaltung, bei der du dich mit anderen Geschäftsführungen über den KI-Einsatz austauschen kannst. Ich empfehle dir die Veranstaltung \"KI-Round-Table (IHK Mittlerer Niederrhein)\" - Phase: Orientierung.\n\nBei dieser moderierten Präsenzveranstaltung kannst du mit anderen Geschäftsführungen und Fach- und Führungskräften austauschen, um KI-Einsatz in Produktion, Verwaltung, Vertrieb und Kundenservice, strategischer Planung, Akzeptanz bei Mitarbeitenden, rechtlichen Fragen und dem EU AI Act zu diskutieren.\n\nEin nächster Schritt wäre, dich direkt an die IHK Mittlerer Niederrhein zu wenden, um weitere Informationen über die Veranstaltung und die Anmeldung zu erhalten.",
+    "zeit_ms": 14978,
+    "gefundene_abschnitte": [
+     "KI-Round-Table (IHK Mittlerer Niederrhein)",
+     "IHK4KMU:innovativ (IHK Mittlerer Niederrhein)",
+     "Künstliche Intelligenz in der Wirtschaft (IHK Mittlerer Niederrhein)"
+    ]
+   },
+   "F03": {
+    "antwort": "Um KI im Unternehmen einzusetzen, müssen Sie sich über die regulatorischen Anforderungen im Rahmen des EU AI Acts informieren. Die IHK Mittlerer Niederrhein bietet Informationen zu diesem Thema an.\n\nIch empfehle:\n\n- **EU AI Act (IHK Mittlerer Niederrhein)** – Orientierung\n- Hier finden Sie Informationen über regulatorische Anforderungen beim KI-Einsatz nach dem EU AI Act.\n\nEin nächster Schritt wäre, sich direkt an die IHK Mittlerer Niederrhein zu wenden, um weitere Informationen zu erhalten.",
+    "zeit_ms": 11349,
+    "gefundene_abschnitte": [
+     "EU AI Act (IHK Mittlerer Niederrhein)",
+     "Künstliche Intelligenz in der Wirtschaft (IHK Mittlerer Niederrhein)",
+     "KI-Round-Table (IHK Mittlerer Niederrhein)",
+     "AI.Shadowing (KI.NRW)"
+    ]
+   },
+   "F04": {
+    "antwort": "Ja, es gibt einen kostenlosen Online-Kurs zu den Grundlagen der KI. Der \"Elements of AI\" von der IHK Mittlerer Niederrhein ist ein kostenloser externer Online-Kurs, der eine Einführung in die Grundlagen der KI bietet. Er ist ideal für den Einstieg in das Thema KI und bietet eine gute Möglichkeit, die Grundlagen zu verstehen.",
+    "zeit_ms": 9361,
+    "gefundene_abschnitte": [
+     "Elements of AI (Verweis der IHK Mittlerer Niederrhein)",
+     "IHK4KMU:innovativ (IHK Mittlerer Niederrhein)",
+     "KI.Kick-off (KI.NRW)",
+     "KI-Round-Table (IHK Mittlerer Niederrhein)"
+    ]
+   },
+   "F05": {
+    "antwort": "Ja, ich empfehle Ihnen das Angebot \"KI.Kick-off\" von KI.NRW. Es ist ein interaktiver Einführungsvortrag, der online oder in Präsenz stattfindet und 90 Minuten dauert. Der Inhalt umfasst eine Einführung in KI und maschinelles Lernen. \n\nWenn Sie sich für eine Präsenzveranstaltung entscheiden, können Sie sich direkt an KI.NRW wenden, um einen Termin zu vereinbaren. Wenn Sie sich für eine Online-Veranstaltung entscheiden, können Sie sich auf der Website von KI.NRW informieren, wie Sie an der Veranstaltung teilnehmen können.\n\nIch hoffe, das hilft! Wenn Sie weitere Fragen haben, stehe ich Ihnen gerne zur Verfügung.",
+    "zeit_ms": 14098,
+    "gefundene_abschnitte": [
+     "KI.Kick-off (KI.NRW)",
+     "Elements of AI (Verweis der IHK Mittlerer Niederrhein)",
+     "IHK4KMU:innovativ (IHK Mittlerer Niederrhein)",
+     "KI-Round-Table (IHK Mittlerer Niederrhein)",
+     "Künstliche Intelligenz in der Wirtschaft (IHK Mittlerer Niederrhein)"
+    ]
+   },
+   "F06": {
+    "antwort": "Um zu prüfen, ob Ihre Idee technisch machbar ist, empfehle ich Ihnen das Angebot \"Machbarkeitsstudien\" der Hochschule Niederrhein. Diese Studie ist speziell für technische Untersuchungen geeignet und kann dabei helfen, die Machbarkeit Ihrer Idee zu prüfen.\n\n* Name des Angebots: Machbarkeitsstudien (Hochschule Niederrhein) - Prototyping\n* Worum es geht: Untersuchung, ob eine technische Lösung realisierbar ist.\n* Warum es zur Anfrage passt: Die Machbarkeitsstudien der Hochschule Niederrhein sind genau dafür da, um die technische Machbarkeit von Ideen zu prüfen.\n\nEin nächster Schritt wäre, sich direkt an die Hochschule Niederrhein zu wenden, um Ihre Idee vorzustellen und die Möglichkeiten der Machbarkeitsstudien zu besprechen.",
+    "zeit_ms": 16708,
+    "gefundene_abschnitte": [
+     "Machbarkeitsstudien (Hochschule Niederrhein)",
+     "KI-Round-Table (IHK Mittlerer Niederrhein)",
+     "Gutachten und Analysen (Hochschule Niederrhein)",
+     "IHK4KMU:innovativ (IHK Mittlerer Niederrhein)"
+    ]
+   },
+   "F07": {
+    "antwort": "Ja, die Hochschule Niederrhein bietet Möglichkeiten, um KI-Prototypen zu entwickeln. Im Rahmen der studentischen Arbeiten können Studierende reale Fragestellungen aus Unternehmen bearbeiten und dabei Prototypen entwickeln [1]. \n\nEin passendes Angebot wäre: **Hochschule Niederrhein - Studien- und Abschlussarbeiten** - Prototyping. \n\nWarum es passt: Hier können Studierende reale Fragestellungen aus Unternehmen bearbeiten und dabei Prototypen entwickeln.\n\nEin nächster Schritt wäre, sich direkt an die Hochschule Niederrhein zu wenden, um weitere Informationen zu erhalten.",
+    "zeit_ms": 12305,
+    "gefundene_abschnitte": [
+     "Studien- und Abschlussarbeiten (Hochschule Niederrhein)",
+     "Forschungsprojekte mit Unternehmen (Hochschule Niederrhein)",
+     "Technische Konzeptentwicklung (Hochschule Niederrhein)",
+     "Machbarkeitsstudien (Hochschule Niederrhein)"
+    ]
+   },
+   "F08": {
+    "antwort": "Laut dem Kontext ist das Ergebnis des KI.DeepDive von KI.NRW ein Konzept, kein fertiger Prototyp. Der KI.DeepDive entwickelt ein Konzept, nicht automatisch einen fertigen Prototyp.",
+    "zeit_ms": 6906,
+    "gefundene_abschnitte": [
+     "KI.DeepDive (KI.NRW)",
+     "Prototypen-Vortests (digihub Düsseldorf)",
+     "Rapid Design & Prototyping (digihub Düsseldorf)",
+     "AI.Shadowing (KI.NRW)"
+    ]
+   },
+   "F09": {
+    "antwort": "Das klingt nach einer guten Orientierungsphase! Für diese Phase empfehle ich Ihnen das Angebot \"AI.Shadowing (KI.NRW)\" [1]. Hier können Sie KI-Anwendungsfälle im Unternehmen identifizieren, strukturieren und bewerten. Das Format ist mehrteilig und hybrides, also können Sie sich entscheiden, wie Sie am besten lernen möchten.\n\nEin nächster Schritt wäre, sich direkt an KI.NRW zu wenden, um mehr über das Angebot zu erfahren und wie Sie sich anmelden können.\n\n[1] **AI.Shadowing (KI.NRW)** – Phase: Orientierung, Prototyping-Vorbereitung",
+    "zeit_ms": 12454,
+    "gefundene_abschnitte": [
+     "AI.Shadowing (KI.NRW)",
+     "Künstliche Intelligenz in der Wirtschaft (IHK Mittlerer Niederrhein)"
+    ]
+   },
+   "F10": {
+    "antwort": "Wir helfen Ihnen gerne dabei, ein passendes Angebot für Ihre Anfrage zu finden.\n\nZunächst möchten wir wissen, welche Phase Sie gerade durchlaufen. Möchten Sie sich erst informieren, Mitarbeitende schulen, eine konkrete Idee prüfen oder eine Lösung umsetzen?\n\nWenn Sie uns Ihre Antwort geben, können wir Ihnen passende Angebote empfehlen.",
+    "zeit_ms": 8156,
+    "gefundene_abschnitte": [
+     "Start-up-Scouting (digihub Düsseldorf)",
+     "Projektbasierte Start-up-Kooperationen (digihub Düsseldorf)"
+    ]
+   },
+   "F11": {
+    "antwort": "Nein, laut eigener Aussage von AI Village entwickelt sie keine KI-Software selbst.",
+    "zeit_ms": 4299,
+    "gefundene_abschnitte": [
+     "KI-Projektentwicklung (AI Village)",
+     "Matchmaking (AI Village)",
+     "Individuelles Erstgespräch (AI Village)",
+     "KI-Sprechstunde (AI Village)"
+    ]
+   },
+   "F12": {
+    "antwort": "Ja, nachdem ein Lösungsanbieter gefunden wurde, bietet AI Village noch Unterstützung an. Sie bietet eine Begleitung nach der Vermittlung eines Lösungsanbieters und gemeinsame Bewertung des Projektverlaufs. Dies ist Teil ihrer Projektbegleitung und Evaluation.",
+    "zeit_ms": 5835,
+    "gefundene_abschnitte": [
+     "Projektbegleitung und Evaluation (AI Village)",
+     "Matchmaking (AI Village)",
+     "KI-Projektentwicklung (AI Village)",
+     "Individuelles Erstgespräch (AI Village)"
+    ]
+   },
+   "F13": {
+    "antwort": "Ich helfe Ihnen gerne bei der Orientierung in der Welt der Künstlichen Intelligenz (KI). Um Ihnen genauere Empfehlungen geben zu können, müssen wir jedoch wissen, in welcher Phase Sie sich befinden. Möchten Sie sich erst informieren, Mitarbeitende schulen, eine konkrete Idee prüfen oder eine Lösung umsetzen?",
+    "zeit_ms": 7602,
+    "gefundene_abschnitte": [
+     "AI.Shadowing (KI.NRW)",
+     "KI.Kick-off (KI.NRW)"
+    ]
+   },
+   "F14": {
+    "antwort": "Es tut mir leid, aber ich kann keine Informationen zu möglichen Förderungen oder Ansprechpartnern finden. Die bereitgestellte Wissensdatenbank enthält keine Informationen über mögliche Förderbeträge oder Ansprechpersonen bei der Hochschule Niederrhein. Es wäre hilfreich, sich direkt an die Hochschule Niederrhein zu wenden, um genaue Informationen zu erhalten.",
+    "zeit_ms": 8921,
+    "gefundene_abschnitte": [
+     "Forschungsprojekte mit Unternehmen (Hochschule Niederrhein)",
+     "Auftragsforschung (Hochschule Niederrhein)",
+     "Technische Konzeptentwicklung (Hochschule Niederrhein)"
+    ]
+   },
+   "F15": {
+    "antwort": "Es tut mir leid, aber ich habe keine Informationen darüber, dass die IHK Mittlerer Niederrhein den „KI-Gutschein NRW“ anbietet. Der bereitgestellte Kontext enthält keine Informationen über einen solchen Gutschein. Wenn Sie nach Informationen über KI-Unterstützungsangebote für Unternehmen suchen, empfehle ich, sich direkt an die IHK Mittlerer Niederrhein zu wenden, um weitere Informationen zu erhalten.",
+    "zeit_ms": 9576,
+    "gefundene_abschnitte": [
+     "IHK4KMU:innovativ (IHK Mittlerer Niederrhein)",
+     "KI-Round-Table (IHK Mittlerer Niederrhein)",
+     "EU AI Act (IHK Mittlerer Niederrhein)",
+     "Elements of AI (Verweis der IHK Mittlerer Niederrhein)"
+    ]
+   },
+   "F16": {
+    "antwort": "Ich bin der KI-Kompass für den Mittelstand und kann dir bei Fragen zu KI-Unterstützungsangeboten für Unternehmen helfen. Leider habe ich keine Informationen über das Wetter in Krefeld oder andere Wettervorhersagen. Wenn du nach Informationen über das Wetter suchst, empfehle ich, dich direkt an eine Wetterdienst-Website oder an eine lokale Nachrichtenquelle zu wenden.",
+    "zeit_ms": 8585,
+    "gefundene_abschnitte": [
+     "KI.Sprechstunde (KI.NRW)",
+     "KI.Kick-off (KI.NRW)",
+     "AI.Shadowing (KI.NRW)",
+     "KI.DeepDive (KI.NRW)"
+    ]
+   }
+  },
+  "V3": {
+   "F01": {
+    "antwort": "Herzlichen Dank für Ihre Anfrage!\n\nDa Sie als Handwerksbetrieb mit 20 Mitarbeitenden gerade erst mit KI starten möchten, empfehle ich Ihnen folgende Angebote:\n\n*   **KI-Check für NRW-Unternehmen** (KI.NRW) – Orientierung\n    *   Es handelt sich um eine erste Bestandsaufnahme, um KI-Potenziale im Unternehmen zu identifizieren.\n    *   Dies ist eine gute Möglichkeit, um einen ersten Überblick über die Möglichkeiten von KI zu bekommen.\n*   **KI-Stammtisch** (IHK Mittlerer Niederrhein) – Orientierung\n    *   Hier können sich interessierte Unternehmen über KI informieren und austauschen.\n    *   Der Stammtisch bietet eine lockere Atmosphäre, um erste Fragen zu stellen.\n\nUm Ihnen noch besser weiterhelfen zu können, möchte ich kurz nachfragen: Möchten Sie sich erst informieren, Mitarbeitende schulen, eine konkrete Idee prüfen oder eine Lösung umsetzen?",
+    "zeit_ms": 23239,
+    "gefundene_abschnitte": []
+   },
+   "F02": {
+    "antwort": "Gerne helfe ich Ihnen dabei, passende Veranstaltungen zum Thema KI-Einsatz zu finden.\n\n**KI-Talks** (IHK Mittlerer Niederrhein) – Orientierung\n- Bei den KI-Talks können sich Unternehmen über aktuelle KI-Themen informieren und austauschen.\n- Da Sie sich über den KI-Einsatz austauschen möchten, ist dieser Talk eine gute Möglichkeit, erste Einblicke zu erhalten.\n\n**KI-Workshops** (KI.NRW) – Qualifizierung\n- Die KI-Workshops bieten die Möglichkeit, sich mit anderen Teilnehmern auszutauschen und gemeinsam an KI-Themen zu arbeiten.\n- Auch hier können Sie sich mit anderen Geschäftsführungen austauschen und voneinander lernen.\n\nMöchten Sie sich erst informieren, Mitarbeitende schulen, eine konkrete Idee prüfen oder eine Lösung umsetzen?",
+    "zeit_ms": 23100,
+    "gefundene_abschnitte": []
+   },
+   "F03": {
+    "antwort": "Da Ihre Frage das rechtliche Thema des KI-Einsatzes betrifft, fällt sie leider nicht in meinen Aufgabenbereich. Ich bin der KI-Kompass für den Mittelstand und helfe Ihnen bei der Orientierung in KI-Unterstützungsangeboten. \n\nIch empfehle Ihnen, sich direkt an die IHK Mittlerer Niederrhein zu wenden, um Informationen zu den rechtlichen Aspekten des KI-Einsatzes zu erhalten.",
+    "zeit_ms": 13806,
+    "gefundene_abschnitte": []
+   },
+   "F04": {
+    "antwort": "Da Ihre Mitarbeitenden keine KI-Vorkenntnisse haben, empfehle ich Ihnen folgende Angebote:\n\n- **KI-Grundlagen für KMU** (KI.NRW) – Qualifizierung\n- Worum es geht: Der Kurs vermittelt grundlegende KI-Kenntnisse für kleine und mittlere Unternehmen.\n- Warum es zur Anfrage passt: Er richtet sich an Personen ohne Vorkenntnisse und ist online zugänglich.\n\n- **KI-Kompass** (IHK Mittlerer Niederrhein) – Orientierung\n- Worum es geht: Das Angebot hilft, erste Einblicke in die Thematik Künstliche Intelligenz zu gewinnen.\n- Warum es zur Anfrage passt: Es bietet eine erste Orientierung für Unternehmen, die sich mit KI beschäftigen möchten.\n\nMöchten Sie wissen, ob es weitere Angebote gibt, die speziell auf den Online-Charakter oder die Kostenfreiheit abzielen?",
+    "zeit_ms": 23072,
+    "gefundene_abschnitte": []
+   },
+   "F05": {
+    "antwort": "Absolut! Hier sind passende Angebote für Ihr Team:\n\n- **KI-Grundlagen kompakt** (KI.NRW) – Qualifizierung\n- Bietet eine Einführung in die Grundlagen von KI und maschinellem Lernen.\n- Da Sie eine Einführung für Ihr Team suchen, ist dieses Angebot ideal.\n\n- **KI-Workshop – Einführung in die Materie** (digihub Düsseldorf) – Qualifizierung\n- Vermittelt in einem Workshop die Grundlagen der künstlichen Intelligenz.\n- Auch dieses Angebot eignet sich gut, um Ihr Team in die Thematik einzuführen.\n\nMöchten Sie wissen, ob es auch spezifische Online-Formate gibt, oder passt eine Kombination aus Online- und Präsenzangeboten besser zu Ihrem Bedarf?",
+    "zeit_ms": 19317,
+    "gefundene_abschnitte": []
+   },
+   "F06": {
+    "antwort": "Das klingt nach einem spannenden Projekt! Da Sie eine konkrete Idee haben, die Sie prüfen lassen möchten, scheint Ihre Phase das **Prototyping** zu sein.\n\nHier sind passende Angebote:\n\n*   **KI-Prototyping** (KI.NRW) – Prototyping\n    *   Es geht darum, gemeinsam einen Prototypen zu entwickeln, um die Machbarkeit zu prüfen.\n    *   Da Sie eine konkrete Idee für die Qualitätskontrolle haben, ist dieses Angebot ideal, um diese zu testen.\n*   **AI Village** (AI Village) – Prototyping\n    *   Es bietet eine Plattform und Unterstützung für die Entwicklung von KI-basierten Prototypen.\n    *   Auch hier können Sie Ihre Idee für die Qualitätskontrolle prüfen lassen.\n\nMöchten Sie mehr über die genauen Inhalte oder den Ablauf dieser Angebote erfahren?",
+    "zeit_ms": 22501,
+    "gefundene_abschnitte": []
+   },
+   "F07": {
+    "antwort": "Die Hochschule Niederrhein bietet das Angebot **KI-Prototypenentwicklung (Hochschule Niederrhein)** – Prototyping an.\n\nEs geht um die Entwicklung von KI-Prototypen im Rahmen studentischer Arbeiten. Da Sie eine konkrete Idee haben, die Sie prüfen möchten, passt dieses Angebot gut zu Ihrem Anliegen.\n\nMöchten Sie mehr über die Rahmenbedingungen für studentische Arbeiten an der Hochschule Niederrhein erfahren?",
+    "zeit_ms": 13610,
+    "gefundene_abschnitte": []
+   },
+   "F08": {
+    "antwort": "Der KI.DeepDive von KI.NRW – Prototyping\n– dient dazu, eine konkrete Idee auszuarbeiten oder auf Machbarkeit zu prüfen. Einen fertigen Prototypen liefert das Angebot demnach nicht.\n\nMöchten Sie sich erst informieren, Mitarbeitende schulen, eine konkrete Idee prüfen oder eine Lösung umsetzen?",
+    "zeit_ms": 11959,
+    "gefundene_abschnitte": []
+   },
+   "F09": {
+    "antwort": "Möchten Sie sich erst informieren, Mitarbeitende schulen, eine konkrete Idee prüfen oder eine Lösung umsetzen?\n",
+    "zeit_ms": 7831,
+    "gefundene_abschnitte": []
+   },
+   "F10": {
+    "antwort": "Da Sie eine KI-Lösung umsetzen möchten, empfehle ich Ihnen folgende Angebote:\n\n- **KI-Beratung** (KI.NRW) – Umsetzung\n- Worum es geht: Das Angebot unterstützt Unternehmen bei der Einführung von KI-Lösungen.\n- Warum es zur Anfrage passt: Es richtet sich gezielt an Unternehmen, die eine KI-Lösung umsetzen wollen.\n\n- **Startup-Coaching** (digihub Düsseldorf) – Umsetzung\n- Worum es geht: Das Angebot unterstützt Startups bei der Entwicklung und Umsetzung ihrer Geschäftsideen.\n- Warum es zur Anfrage passt: Es kann helfen, ein passendes Start-up für die Umsetzung Ihrer KI-Lösung zu finden.\n\nMöchten Sie mehr über die genauen Inhalte oder den Ablauf dieser Angebote erfahren?",
+    "zeit_ms": 20641,
+    "gefundene_abschnitte": []
+   },
+   "F11": {
+    "antwort": "Ich bin der KI-Kompass für den Mittelstand und helfe Ihnen gerne bei der Orientierung im KI-Unterstützungsangebot der IHK Mittlerer Niederrhein und Partnern.\n\nUm Ihnen passend weiterhelfen zu können, müsste ich zunächst wissen, in welcher Phase Sie sich befinden. Möchten Sie sich erst informieren, Mitarbeitende schulen, eine konkrete Idee prüfen oder eine Lösung umsetzen?\n",
+    "zeit_ms": 14634,
+    "gefundene_abschnitte": []
+   },
+   "F12": {
+    "antwort": "Um welche Phase handelt es sich denn bei Ihrem Anliegen? Möchten Sie sich erst informieren, Mitarbeitende schulen, eine konkrete Idee prüfen oder eine Lösung umsetzen?\n",
+    "zeit_ms": 8981,
+    "gefundene_abschnitte": []
+   },
+   "F13": {
+    "antwort": "Um Ihnen die passenden Angebote empfehlen zu können, bräuchte ich noch etwas mehr Information. Möchten Sie sich erst informieren, Mitarbeitende schulen, eine konkrete Idee prüfen oder eine Lösung umsetzen?",
+    "zeit_ms": 9227,
+    "gefundene_abschnitte": []
+   },
+   "F14": {
+    "antwort": "Ich bin der KI-Kompass für den Mittelstand und helfe Ihnen gerne bei der Orientierung zu KI-Unterstützungsangeboten.\n\nAllerdings kann ich Ihnen leider keine Auskunft über Fördersummen oder Ansprechpartner bei der Hochschule Niederrhein geben. Meine Wissensdatenbank enthält dazu keine Informationen.\n\nUm diese Fragen zu klären, empfehle ich Ihnen, sich direkt an die IHK Mittlerer Niederrhein zu wenden.\n\nKönnen Sie mir sagen, in welcher Phase Sie sich aktuell befinden? Möchten Sie sich erst informieren, Mitarbeitende schulen, eine konkrete Idee prüfen oder eine Lösung umsetzen?",
+    "zeit_ms": 16889,
+    "gefundene_abschnitte": []
+   },
+   "F15": {
+    "antwort": "Der „KI-Gutschein NRW“ wird von KI.NRW angeboten – Phase: Prototyping.\n\nEr unterstützt Unternehmen bei der Entwicklung erster KI-Anwendungen und der Prüfung der Machbarkeit.\n\nDa der KI-Gutschein NRW von KI.NRW angeboten wird, empfehle ich Ihnen, sich direkt an KI.NRW zu wenden, um Informationen zur Beantragung zu erhalten.\n\nHaben Sie weitere Fragen zu KI-Unterstützungsangeboten der IHK Mittlerer Niederrhein und Partner?",
+    "zeit_ms": 15855,
+    "gefundene_abschnitte": []
+   },
+   "F16": {
+    "antwort": "Ich bin der KI-Kompass für den Mittelstand und helfe Unternehmen bei der Orientierung im KI-Bereich. Informationen zum Wetter kann ich dir leider nicht geben. Dafür solltest du einen Wetterdienst nutzen.\n",
+    "zeit_ms": 9319,
+    "gefundene_abschnitte": []
+   }
+  },
+  "V4": {
+   "F01": {
+    "antwort": "Da Sie als Handwerksbetrieb mit KI starten möchten, empfehle ich Ihnen folgende Angebote:\n\n- **Künstliche Intelligenz in der Wirtschaft (IHK Mittlerer Niederrhein)** – Orientierung\n- Worum es geht: Es bietet Informationen zum Einsatz von KI in Unternehmen.\n- Warum es passt: Es ist besonders geeignet für den KI-Einstieg.\n\n- **IHK4KMU:innovativ (IHK Mittlerer Niederrhein)** – Orientierung\n- Worum es geht: Es sind kostenfreie Online-Webinare zu Technologie, Innovation und Digitalisierung.\n- Warum es passt: Es kann Ihnen einen ersten Überblick verschaffen.\n\nMöchten Sie sich erst informieren, Mitarbeitende schulen, eine konkrete Idee prüfen oder eine Lösung umsetzen?",
+    "zeit_ms": 31011,
+    "gefundene_abschnitte": [
+     "Künstliche Intelligenz in der Wirtschaft (IHK Mittlerer Niederrhein)",
+     "IHK4KMU:innovativ (IHK Mittlerer Niederrhein)",
+     "Elements of AI (Verweis der IHK Mittlerer Niederrhein)"
+    ]
+   },
+   "F02": {
+    "antwort": "Gerne helfe ich Ihnen weiter!\n\nFür den Austausch mit anderen Geschäftsführungen zum Thema KI-Einsatz empfehle ich Ihnen den **KI-Round-Table (IHK Mittlerer Niederrhein)** [1] – Orientierung. Hierbei handelt es sich um eine moderierte Präsenzveranstaltung, in der Sie sich mit anderen über KI-Anwendungen in verschiedenen Bereichen austauschen können.\n\nMöchten Sie sich zuerst informieren, Mitarbeitende schulen, eine konkrete Idee prüfen oder eine Lösung umsetzen?",
+    "zeit_ms": 26718,
+    "gefundene_abschnitte": [
+     "KI-Round-Table (IHK Mittlerer Niederrhein)",
+     "IHK4KMU:innovativ (IHK Mittlerer Niederrhein)",
+     "Künstliche Intelligenz in der Wirtschaft (IHK Mittlerer Niederrhein)"
+    ]
+   },
+   "F03": {
+    "antwort": "Bei Fragen zu rechtlichen Aspekten des KI-Einsatzes empfehle ich Ihnen folgende Angebote:\n\n- **EU AI Act (IHK Mittlerer Niederrhein)** – Orientierung, Umsetzungsvorbereitung\n- Bietet Informationen über regulatorische Anforderungen beim KI-Einsatz nach dem EU AI Act [1].\n- Es passt zu Ihrer Frage, da es sich direkt mit den rechtlichen Rahmenbedingungen befasst.\n\n- **KI-Round-Table (IHK Mittlerer Niederrhein)** – Orientierung\n- Bietet Austausch zu rechtlichen Fragen im Zusammenhang mit KI [1].\n- Es passt zu Ihrer Frage, da rechtliche Aspekte dort ebenfalls angesprochen werden.\n\nMöchten Sie sich zuerst einen Überblick über den KI-Einsatz im Allgemeinen verschaffen oder geht es Ihnen primär um die rechtlichen Details?",
+    "zeit_ms": 34824,
+    "gefundene_abschnitte": [
+     "EU AI Act (IHK Mittlerer Niederrhein)",
+     "Künstliche Intelligenz in der Wirtschaft (IHK Mittlerer Niederrhein)",
+     "KI-Round-Table (IHK Mittlerer Niederrhein)",
+     "AI.Shadowing (KI.NRW)"
+    ]
+   },
+   "F04": {
+    "antwort": "Ja, da gibt es eine passende Möglichkeit:\n\n- **Elements of AI (IHK Mittlerer Niederrhein)** – Qualifizierung\n- Es handelt sich um einen kostenlosen Online-Kurs, der die Grundlagen der KI vermittelt.\n- Da Ihre Mitarbeitenden keine Vorkenntnisse haben, ist dieser Kurs eine gute Einführung. [1]\n\nMöchten Sie vielleicht auch Webinare zu Technologie und Digitalisierung kennenlernen, in denen einzelne Termine KI-Themen behandeln?",
+    "zeit_ms": 27094,
+    "gefundene_abschnitte": [
+     "Elements of AI (Verweis der IHK Mittlerer Niederrhein)",
+     "IHK4KMU:innovativ (IHK Mittlerer Niederrhein)",
+     "KI.Kick-off (KI.NRW)",
+     "KI-Round-Table (IHK Mittlerer Niederrhein)"
+    ]
+   },
+   "F05": {
+    "antwort": "Für eine kurze Einführung in KI und maschinelles Lernen für Ihr Team, die auch online stattfinden kann, empfehle ich Ihnen folgende Angebote:\n\n- **KI.Kick-off (KI.NRW)** – Orientierung, Qualifizierung\n- Bietet einen interaktiven Einführungsvortrag von 90 Minuten, der online oder in Präsenz stattfinden kann und die Grundlagen von KI und maschinellem Lernen vermittelt [1].\n- **Elements of AI (Verweis der IHK Mittlerer Niederrhein)** – Qualifizierung\n- Dies ist ein kostenloser externer Online-Kurs, der eine Einführung in die Grundlagen der KI bietet [1].\n\nMöchten Sie vielleicht noch weitere Informationen zu einem der Angebote?",
+    "zeit_ms": 30979,
+    "gefundene_abschnitte": [
+     "KI.Kick-off (KI.NRW)",
+     "Elements of AI (Verweis der IHK Mittlerer Niederrhein)",
+     "IHK4KMU:innovativ (IHK Mittlerer Niederrhein)",
+     "KI-Round-Table (IHK Mittlerer Niederrhein)",
+     "Künstliche Intelligenz in der Wirtschaft (IHK Mittlerer Niederrhein)"
+    ]
+   },
+   "F06": {
+    "antwort": "Das klingt nach einer spannenden Idee! Um herauszufinden, wer Ihnen dabei helfen kann, möchte ich kurz fragen: Möchten Sie sich erst informieren, Mitarbeitende schulen, eine konkrete Idee prüfen oder eine Lösung umsetzen?\n\nSobald ich Ihre Phase kenne, kann ich Ihnen passende Angebote empfehlen.",
+    "zeit_ms": 25018,
+    "gefundene_abschnitte": [
+     "Machbarkeitsstudien (Hochschule Niederrhein)",
+     "KI-Round-Table (IHK Mittlerer Niederrhein)",
+     "Gutachten und Analysen (Hochschule Niederrhein)",
+     "IHK4KMU:innovativ (IHK Mittlerer Niederrhein)"
+    ]
+   },
+   "F07": {
+    "antwort": "Ja, die Hochschule Niederrhein bietet dafür verschiedene Möglichkeiten.\n\n- **Studien- und Abschlussarbeiten (Hochschule Niederrhein)** – Prototyping\n- Worum es geht: Studierende bearbeiten reale Fragestellungen aus Unternehmen und können dabei Prototypen entwickeln.\n- Warum es zur Anfrage passt: Es ermöglicht die Entwicklung von Prototypen im Rahmen einer studentischen Arbeit.\n\n- **Technische Konzeptentwicklung (Hochschule Niederrhein)** – Prototyping\n- Worum es geht: Entwicklung und Bewertung möglicher technischer Lösungsansätze.\n- Warum es zur Anfrage passt: Es kann helfen, die Entwicklung eines KI-Prototypen voranzutreiben.\n\nMöchten Sie sich erst informieren, Mitarbeitende schulen, eine konkrete Idee prüfen oder eine Lösung umsetzen?",
+    "zeit_ms": 35103,
+    "gefundene_abschnitte": [
+     "Studien- und Abschlussarbeiten (Hochschule Niederrhein)",
+     "Forschungsprojekte mit Unternehmen (Hochschule Niederrhein)",
+     "Technische Konzeptentwicklung (Hochschule Niederrhein)",
+     "Machbarkeitsstudien (Hochschule Niederrhein)"
+    ]
+   },
+   "F08": {
+    "antwort": "Nein, beim KI.DeepDive von KI.NRW entwickeln Sie kein fertigen Prototypen [1]. Stattdessen entsteht ein Konzept für einen konkreten KI-Anwendungsfall, wobei die Machbarkeit geprüft und die nächsten Schritte geplant werden [1]. Der KI.DeepDive ist also für die Prototyping-Vorbereitung geeignet [1].\n\nMöchten Sie sich erst informieren, Mitarbeitende schulen, eine konkrete Idee prüfen oder eine Lösung umsetzen?",
+    "zeit_ms": 27644,
+    "gefundene_abschnitte": [
+     "KI.DeepDive (KI.NRW)",
+     "Prototypen-Vortests (digihub Düsseldorf)",
+     "Rapid Design & Prototyping (digihub Düsseldorf)",
+     "AI.Shadowing (KI.NRW)"
+    ]
+   },
+   "F09": {
+    "antwort": "Sie befinden sich in der Orientierungsphase, da Sie herausfinden möchten, welche KI-Anwendungsfälle für Ihr Unternehmen relevant sein könnten.\n\nIch empfehle Ihnen folgende Angebote:\n\n- **Künstliche Intelligenz in der Wirtschaft (IHK Mittlerer Niederrhein)** – Orientierung\n- Bietet Informationen zum Einsatz von KI in Unternehmen [1].\n- Es hilft Ihnen, einen ersten Überblick zu bekommen.\n\n- **AI.Shadowing (KI.NRW)** – Orientierung, Prototyping-Vorbereitung\n- Es hilft Ihnen, KI-Anwendungsfälle im Unternehmen zu identifizieren, zu strukturieren und zu bewerten [1].\n- Es ist ein hybrides Format, das Ihnen einen umfassenden Ansatz bietet.\n\nMöchten Sie sich jetzt genauer über die Inhalte dieser Angebote informieren?",
+    "zeit_ms": 34501,
+    "gefundene_abschnitte": [
+     "AI.Shadowing (KI.NRW)",
+     "Künstliche Intelligenz in der Wirtschaft (IHK Mittlerer Niederrhein)"
+    ]
+   },
+   "F10": {
+    "antwort": "Da Sie ein Start-up suchen, das mit Ihnen eine KI-Lösung umsetzt, empfehle ich Ihnen folgende Angebote:\n\n- **Start-up-Scouting (digihub Düsseldorf)** – Umsetzung\n- Worum es geht: Es geht um die Vermittlung von geeigneten Start-ups im Netzwerk von digihub.\n- Warum es zur Anfrage passt: Es hilft Ihnen, Start-ups für die Umsetzung einer KI-Lösung zu finden.\n\n- **Projektbasierte Start-up-Kooperationen (digihub Düsseldorf)** – Umsetzung\n- Worum es geht: Es geht um die Unterstützung beim Aufbau gemeinsamer Projekte von Mittelstand und Start-ups.\n- Warum es zur Anfrage passt: Es unterstützt Sie beim Aufbau eines Projekts mit einem Start-up.\n\nMöchten Sie mehr über die Einschränkungen der Angebote des digihub Düsseldorf erfahren?",
+    "zeit_ms": 38422,
+    "gefundene_abschnitte": [
+     "Start-up-Scouting (digihub Düsseldorf)",
+     "Projektbasierte Start-up-Kooperationen (digihub Düsseldorf)"
+    ]
+   },
+   "F11": {
+    "antwort": "Laut der Wissensbasis entwickelt AI Village keine KI-Software selbst [1]. Sie sind besonders geeignet, um KI-Ideen zu konkretisieren und Umsetzungspartner zu finden [1].\n\nMöchten Sie sich erst informieren, Mitarbeitende schulen, eine konkrete Idee prüfen oder eine Lösung umsetzen?",
+    "zeit_ms": 24171,
+    "gefundene_abschnitte": [
+     "KI-Projektentwicklung (AI Village)",
+     "Matchmaking (AI Village)",
+     "Individuelles Erstgespräch (AI Village)",
+     "KI-Sprechstunde (AI Village)"
+    ]
+   },
+   "F12": {
+    "antwort": "Nachdem Sie über AI Village einen Lösungsanbieter gefunden haben, kann das Angebot „Projektbegleitung und Evaluation (AI Village)“ [1] hilfreich sein. Es bietet eine Begleitung nach der Vermittlung eines Lösungsanbieters und eine gemeinsame Bewertung des Projektverlaufs.\n\nMöchten Sie wissen, ob AI Village noch weitere Unterstützungsangebote hat?",
+    "zeit_ms": 14771,
+    "gefundene_abschnitte": [
+     "Projektbegleitung und Evaluation (AI Village)",
+     "Matchmaking (AI Village)",
+     "KI-Projektentwicklung (AI Village)",
+     "Individuelles Erstgespräch (AI Village)"
+    ]
+   },
+   "F13": {
+    "antwort": "Es freut mich, dass Sie sich für KI interessieren! Um Ihnen passende Angebote empfehlen zu können, müsste ich wissen, in welcher Phase Sie sich befinden. Möchten Sie sich erst informieren, Mitarbeitende schulen, eine konkrete Idee prüfen oder eine Lösung umsetzen?",
+    "zeit_ms": 23445,
+    "gefundene_abschnitte": [
+     "AI.Shadowing (KI.NRW)",
+     "KI.Kick-off (KI.NRW)"
+    ]
+   },
+   "F14": {
+    "antwort": "Die Wissensdatenbank enthält leider keine Informationen zu Fördersummen oder Ansprechpartnern für Forschungsprojekte mit der Hochschule Niederrhein. Sie können sich direkt an die IHK Mittlerer Niederrhein wenden, um diese Fragen zu klären.\n\nMöchten Sie sich erst informieren, Mitarbeitende schulen, eine konkrete Idee prüfen oder eine Lösung umsetzen?",
+    "zeit_ms": 26467,
+    "gefundene_abschnitte": [
+     "Forschungsprojekte mit Unternehmen (Hochschule Niederrhein)",
+     "Auftragsforschung (Hochschule Niederrhein)",
+     "Technische Konzeptentwicklung (Hochschule Niederrhein)"
+    ]
+   },
+   "F15": {
+    "antwort": "Die IHK Mittlerer Niederrhein bietet den „KI-Gutschein NRW“ leider nicht direkt an. Ich kann Ihnen nur Angebote der IHK Mittlerer Niederrhein nennen, die in meiner Wissensdatenbank stehen.\n\nMöchten Sie sich erst informieren, Mitarbeitende schulen, eine konkrete Idee prüfen oder eine Lösung umsetzen?",
+    "zeit_ms": 26682,
+    "gefundene_abschnitte": [
+     "IHK4KMU:innovativ (IHK Mittlerer Niederrhein)",
+     "KI-Round-Table (IHK Mittlerer Niederrhein)",
+     "EU AI Act (IHK Mittlerer Niederrhein)",
+     "Elements of AI (Verweis der IHK Mittlerer Niederrhein)"
+    ]
+   },
+   "F16": {
+    "antwort": "Ich bin der KI-Kompass für den Mittelstand und kann Ihnen leider keine Auskünfte zum Wetter geben. Ich helfe Unternehmen dabei, passende KI-Unterstützungsangebote zu finden. Möchten Sie sich erst informieren, Mitarbeitende schulen, eine konkrete Idee prüfen oder eine Lösung umsetzen?",
+    "zeit_ms": 25254,
+    "gefundene_abschnitte": [
+     "KI.Sprechstunde (KI.NRW)",
+     "KI.Kick-off (KI.NRW)",
+     "AI.Shadowing (KI.NRW)",
+     "KI.DeepDive (KI.NRW)"
+    ]
+   }
+  }
+ }
+}
