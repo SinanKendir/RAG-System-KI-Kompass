@@ -1,7 +1,7 @@
 # Meilenstein 3 – Empirische Messung
 
 **Leitfrage:** Erfüllt Prototyp 1 des KI-Kompass die Anforderungen?
-Durchgeführt am 13.11.2026 lokal (Ollama + Open WebUI 0.12 auf einem Mac), Datenbasis unverändert aus Prototyp 1 (30 Angebote, 5 Anbieter).
+Durchgeführt am 13.11.2026 lokal (Ollama + Open WebUI 0.12 auf einem Mac), Datenbasis unverändert aus Prototyp 1 (29 Angebote, 5 Anbieter).
 
 ## Inhalt dieses Ordners
 
@@ -27,7 +27,7 @@ Durchgeführt am 13.11.2026 lokal (Ollama + Open WebUI 0.12 auf einem Mac), Date
 
 **Teil 2 – Einstellungen (128 Antworten):** beide Modelle mit RAG, je eine Einstellung verändert: Top-K 3, Top-K 10, nur Vektorsuche, Temperatur 0,7.
 
-Je ein Durchlauf pro Frage. Bewertet hat eine Person anhand der vorab festgelegten Soll-Antworten.
+Je ein Durchlauf pro Frage. Die Bewertung erfolgte KI-gestützt (Claude) anhand der vorab festgelegten Kriterien und Soll-Antworten; sie wurde nicht unabhängig doppelt geprüft.
 
 ## Ergebnisse Teil 1
 
@@ -45,7 +45,7 @@ Je ein Durchlauf pro Frage. Bewertet hat eine Person anhand der vorab festgelegt
 | **Erfüllt** | **4/9** | **8/9** | **3/9** | **7/9** |
 
 - Ohne RAG enthalten 8 von 16 Antworten erfundene Angebote, mit RAG keine.
-- Die Suche liefert in 12 von 13 Fällen das erwartete Angebot; F01 („erste Beratung“) findet die Sprechstunden nicht.
+- Die Suche liefert in 11 von 12 Fällen das erwartete Angebot; F01 („erste Beratung“) findet die Sprechstunden nicht.
 - Prototyp 1 verfehlt A5 (überflüssige Phasen-Rückfrage in 8 von 16 Antworten) und A4 (F15 ohne Verweis an die IHK).
 
 ## Ergebnisse Teil 2
@@ -58,7 +58,8 @@ Je ein Durchlauf pro Frage. Bewertet hat eine Person anhand der vorab festgelegt
 | Nur Vektorsuche | 8/9 | 5/9 | 37,7 s |
 | Temperatur 0,7 | 8/9 | 9/9 | 17,9 s |
 
-- Die gefundenen Abschnitte sind bei allen Sucheinstellungen gleich (12 von 13).
+- Die gefundenen Abschnitte sind bei allen Sucheinstellungen gleich (11 von 12).
+- „Nur Vektorsuche“ bei gemma3 (5/9): gleiche Abschnitte wie bei hybrider Suche; die längere Antwortzeit lag vermutlich an der Auslastung des Macs, nicht an der Einstellung.
 - Top-K 10 verdoppelt die Antwortzeit von gemma3; llama3.1 erfindet dabei Seitenangaben.
 - Temperatur 0,7 bei gemma3: 9/9, hängt aber an 2–3 Einzelantworten und ist bei einem Durchlauf nicht belastbar.
 - Antwortzeiten schwanken mit der Auslastung des Macs.
